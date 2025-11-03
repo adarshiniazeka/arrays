@@ -1,0 +1,7 @@
+arr=list(map(int,input().split()))
+n=len(set(arr)) #set=removes duplicates 
+arr.sort()
+if len(arr)<3:
+    print("no 3rd element is found")
+else:
+    print("third largest element is:",arr[-3])
