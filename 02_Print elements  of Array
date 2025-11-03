@@ -1,0 +1,4 @@
+arr=list(map(int,input("arr[]:").split()))
+print(arr)
+for i in arr:
+    print(i,end=" ")
