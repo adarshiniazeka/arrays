@@ -1,0 +1,12 @@
+arr=list(map(int,input().split()))
+n=len(arr)
+arr.sort()
+for i in range(n-2,-1,-1):
+    if arr[i]!=arr[n-1]:
+        print("Second largest element is:",arr[i])
+        break;
+else:
+    print("no second largest element is found")
+
+
+
